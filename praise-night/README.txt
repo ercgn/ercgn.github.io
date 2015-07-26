@@ -1,45 +1,52 @@
-Twenty 1.0 by HTML5 UP
+Spectral by HTML5 UP
 html5up.net | @n33co
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
-This is Twenty, a minimal, multi-page responsive site template for HTML5 UP.
+A big, modern, blocky affair with a mobile-style menu, fully responsive styling,
+and an assortment of pre-styled elements. So, pretty much what you were expecting
+-- except, of course, for how it's put together, specifically:
 
-As the name implies, this is my twentieth (!) design for HTML5 UP. Since the last
-few have been single page affairs, I decided to go with something a bit more conventional
-and threw in four extra page layouts. Beyond that, it's the usual drill: fully responsive,
-built on HTML5/CSS3/skel, and CCA licensed like all my other stuff.
+- It's built on Skel 3*, a leaner, more modular rewrite of my responsive framework.
 
-Special thanks to Michael Domaradzki (mdomaradzki.deviantart.com) for allowing me to
-use his excellent photos in Twenty's demo*.
+  (* = still in development as of this writing)
 
-(* Not included with this download (replaced with generic placeholder images), as
-I only have permission to use his work in my own on-site demos. Do NOT download
-or use any of his work without prior explicit permission.)
+- It uses flexbox*, which eliminates all kinds of terrible hacks and clunky layout
+  stopgaps (like CSS grid systems).
 
+  (* = not supported on IE8/9, but non-flexbox fallbacks are included)
+
+- It uses Sass* a lot more intelligently, thanks in part to several new mixins
+  and functions I've been working on (as well as a few by @HugoGiraudel).
+
+  (* = still entirely optional if you prefer vanilla CSS :)
+
+- A ton of other stuff.
+
+In short, Spectral's the culmination of several new things I'm working on/trying out,
+so please, let me know what you think :)
+
+Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
+you can use for pretty much whatever.
+
+(* = not included)
 
 AJ
 n33.co @n33co dribbble.com/n33
 
 
+Credits:
 
-Credits
-=======
+	Demo Images:
+		Unsplash (unsplash.com)
 
-	Images (Demo Only)
-		Michael Domaradzki (http://mdomaradzki.deviantart.com/)	
-			"Night Vision" (http://mdomaradzki.deviantart.com/art/Night-Vision-384070222)
-			"At the Station II" (http://mdomaradzki.deviantart.com/art/At-the-Station-II-37023322)
-			"Airchitecture II" (http://mdomaradzki.deviantart.com/art/Airchitecture-II-385212804)
-			"Livewires II" (http://mdomaradzki.deviantart.com/art/Livewires-II-358817199)
-			"Midnite Xpress I" (http://mdomaradzki.deviantart.com/art/Midnite-Xpress-I-371126495)
+	Icons:
+		Font Awesome (fortawesome.github.com/Font-Awesome)
 
-	Icons
-		Font Awesome (http://fortawesome.github.com/Font-Awesome/)
-
-	Other
+	Other:
 		jQuery (jquery.com)
 		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-		background-size polyfill (https://github.com/louisremi/background-size-polyfill)
-		Misc jQuery plugins (n33.co)
-		skel (n33.co)
+		background-size polyfill (github.com/louisremi)
+		Misc. Sass functions (@HugoGiraudel)
+		Respond.js (j.mp/respondjs)
+		Skel (skel.io)
